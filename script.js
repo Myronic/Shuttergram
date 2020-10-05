@@ -37,6 +37,10 @@ $(document).ready(function(){
             $(this).removeClass("far");
             $(this).addClass("fas");
             $(this).css("color","red");
+        }elseif($dataLiked == 1){
+            $(this).removeClass("fas");
+            $(this).addClass("far");
+            $(this).css("color","#444");
         }else{
             $(this).removeClass("fas");
             $(this).addClass("far");
